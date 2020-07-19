@@ -3,7 +3,7 @@
 from django.urls import path, include
 
 app_name = 'users'
-url_patterns = [
+urlpatterns = [
     # Include default auth urls.
     path('', include('django.contrib.auth.urls')),
 ]
